@@ -1,0 +1,437 @@
+body, p {
+	margin: 0;
+	font-size: 100%;
+	font-family: Lemonada
+}
+.main p {
+    line-height: 1.6em ;
+    text-align: justify;
+    margin: 20px 0
+}
+span {
+	font-family: inherit
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: 100%;
+	font-weight: 400;
+	font-family: Lemonada
+}
+a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: Lemonada
+}
+ul, li, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Lemonada
+}
+input, textarea {
+	outline: 0;
+	border: 0;
+	background: 0;
+	font-family: Lemonada
+}
+img {
+	border: 0;
+	max-width: 100%
+}
+abbr {
+	border: none!important;
+	outline: none!important;
+	text-decoration: none!important
+}
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease
+}
+.clear {
+	clear: both;
+	display: block
+}
+html {
+	transiton: 5s linear
+}
+body {
+	font-family: Lemonada
+}
+.main {
+	padding-top: 30px;
+	position: relative;
+	width: 900px;
+	right: 250px
+}
+.top-bar {
+	position: fixed;
+	background-color: #120e28;
+	top: 0;
+	right: 0;
+	width: 220px;
+	height: 100%;
+	-webkit-box-shadow: 0 0 20px -5px #000;
+	        box-shadow: 0 0 20px -5px #000;
+	overflow-x: hidden;
+	direction: ltr;
+	z-index: 999
+}
+.logo {
+	background: url(Images/logo.png) no-repeat;
+	width: 200px;
+	height: 90px;
+	display: block;
+	background-size: 150px;
+	background-position: center;
+	margin-top: 20px
+}
+.headlines {
+	display: block;
+	width: 100%;
+	padding: 0 20px
+}
+.headlines a {
+	text-align: right;
+	padding: 10px;
+	cursor: pointer;
+	color: #aaa;
+	font-size: 12px;
+	border-bottom: 1px dashed #242135;
+	display: block
+}
+.headlines a:hover {
+	color: #fff;
+	border-bottom: 1px dashed #9e2f5e
+}
+figure {
+	margin: 10px 0;
+	line-height: 2em;
+	text-align: justify
+}
+.sh {
+	background: url(Images/sh.png) no-repeat;
+	width: 90px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: middle
+}
+.layout {
+	background-position: center -250px
+}
+.pages {
+	background-position: center -210px
+}
+.settings {
+	background-position: center -330px
+}
+.template {
+	background-position: center -290px
+}
+.main h2 {
+	background-color: #242135;
+	color: #aaa;
+	border-radius: 3px;
+	padding: 20px 40px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: Lemonada!important
+}
+.main li {
+	line-height: 2.5em
+}
+.main img {
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 8px 0px #444;
+            box-shadow: 0 0 8px 0px #444;
+    border: 5px solid #ccc;
+}
+.main section {
+	margin-bottom: 100px;
+	clear: both;
+	display: block
+}
+.main ul li {
+	list-style: circle;
+	margin-right: 40px
+}
+.main ol li {
+	list-style: decimal;
+	margin-right: 40px
+}
+.thanks {
+	background-color: #622047;
+	font-family: Lemonada;
+	display: block;
+	padding: 20px;
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 120px;
+	width: 360px;
+	border: 10px solid #120e28;
+	margin: 0 auto;
+	border-radius: 100px;
+	position: relative
+}
+.thanks:before {
+	content: "";
+	background: url(Images/heart.png) no-repeat;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 40px;
+	z-index: 2;
+	top: 30px;
+	-webkit-animation: thx .2s ease alternate infinite;
+	        animation: thx .2s ease alternate infinite
+}
+@-webkit-keyframes thx {
+	100% {
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7)
+	}
+}
+@keyframes thx {
+	100% {
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7)
+	}
+}
+.copyrights {
+	color: #aaa;
+	font-family: Lemonada;
+	padding: 10px 0;
+	margin-top: 50px;
+	border-top: 1px solid #ddd;
+	font-family: Lemonada;
+	text-align: left;
+	overflow: hidden;
+	font-size: 12px
+}
+.copyrights i {
+	color: #9e2f5e;
+	font-style: normal
+}
+.sites {
+	float: right
+}
+.sites a {
+	background: url(Images/sites.png);
+	width: 34px;
+	height: 34px;
+	float: right;
+	margin-right: 10px;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease
+}
+.d-name {
+	float: left;
+	margin-top: 10px
+}
+.sites a:hover {
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg)
+}
+a[title='Facebook'] {
+	background-position: 0 0
+}
+a[title='Khamsat'] {
+	background-position: -131px 0
+}
+a[title='Picalica'] {
+	background-position: -86px 0
+}
+a[title='DotAraby'] {
+	background-position: -43px 0
+}
+a[title='Levon'] {
+	background-position: -177px 0
+}
+.b-home {
+	width: 130px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 5px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #EEE;
+	border: 1px solid #242135
+}
+.b-home p {
+	border-top: 1px solid #242135;
+	margin-top: 20px
+}
+.b-home span {
+	width: 100%;
+	height: 88px;
+	display: block;
+	background: url(Images/lays.png) no-repeat;
+	background-size: 89px
+}
+.b-cover span {
+	background-position: center -265px
+}
+.b-bcover span {
+	background-position: center 0
+}
+.b-sided span {
+	background-position: center -90px
+}
+.b-list span {
+	background-position: center -177px
+}
+.b-cards span {
+	background-position: center -355px
+}
+.b-broadcast span {
+	background-position: center -442px
+}
+.table {
+	display: table;
+	font-size: 14px;
+    width:90%;
+}
+.row div {
+	display: table-cell;
+	border-bottom: 1px solid #ddd;
+	vertical-align: middle;
+	padding: 10px;
+	line-height: 1.5em
+}
+.thead {
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #242135;
+	color: #aaa;
+	font-family: Lemonada;
+}
+.thead div {
+	border-bottom: 1px solid #ddd
+}
+.table .row:nth-of-type(odd):not(.thead) {
+	background-color: #f5f5f5
+}
+.thead.row div:nth-of-type(2) {
+	text-align: center
+}
+.row {
+	display: table-row
+}
+.row div:nth-of-type(3) {
+	width: 20%;
+	text-align: center;
+	border-left: 1px solid #ddd
+}
+.row div:nth-of-type(2) {
+	width: 50%;
+	border-left: 1px solid #ddd
+}
+.row div:nth-of-type(1) {
+	width: 30%;
+	border-left: 1px solid #ddd;
+	text-align: center;
+	border-right: 1px solid #ddd
+}
+#fonts-table .row div:nth-of-type(1){
+    width:20%
+}
+#fonts-table .row div:nth-of-type(2){
+    width:50%
+}
+#fonts-table .row div:nth-of-type(3){
+    width:30%
+}
+dr {
+	font-size: 12px;
+	color: #999;
+	font-weight: 700
+}
+b:before {
+    content: "🔹";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+b {
+    font-size: 19px;
+    border-bottom: 1px solid #00bcf2;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#options code {
+	font-size: 14px;
+	padding: 0 4px;
+	margin: 0 5px;
+	display: inline-block
+}
+.row.new:after {
+	content: "جديد";
+	position: absolute;
+	font-size: 9px;
+	background-color: #9c2e5c;
+	color: #FFF;
+	padding: 2px 5px
+}
+code {
+	font-size: 16px;
+	background-color: #9a9a9d;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 2px
+}
+#fonts-list li {
+    line-height:2em
+}
+#fonts-list li a, dr a {
+    color :#3a95ff ;
+}
+#fonts-list li a:hover, dr a:hover{
+    color :#ff3f6c;
+}
+#languages ul li {
+    font-size : 12px;
+    line-height: 1.5em;
+}
+/* arabic */
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lemonada'), local('Lemonada-Regular'), url(https://fonts.gstatic.com/s/lemonada/v4/0QIjMXFD9oygTWy_R8tMv_SW8g.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lemonada'), local('Lemonada-Regular'), url(https://fonts.gstatic.com/s/lemonada/v4/0QIjMXFD9oygTWy_R8tGv_SW8g.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lemonada'), local('Lemonada-Regular'), url(https://fonts.gstatic.com/s/lemonada/v4/0QIjMXFD9oygTWy_R8tHv_SW8g.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lemonada'), local('Lemonada-Regular'), url(https://fonts.gstatic.com/s/lemonada/v4/0QIjMXFD9oygTWy_R8tJv_Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
